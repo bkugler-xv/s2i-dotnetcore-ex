@@ -17,14 +17,14 @@ namespace app.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "XV application description page.";
+            ViewData["Message"] = " XV application description page.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "XV contact page.";
+            ViewData["Message"] = " XV contact page.";
 
             return View();
         }
